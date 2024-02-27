@@ -1,0 +1,42 @@
+{
+  "name": "svg-batch-convert",
+  "version": "1.0.0",
+  "description": "Output icons for Copilot in a variety of sizes",
+  "author": "coliff",
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/coliff/svg-batch-convert/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coliff/svg-batch-convert.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coliff/svg-batch-convert/issues"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "prettier": "npx prettier --write \"*.{js,json,md,yml}\"",
+    "test": "npx eslint *.js --fix"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "env": {
+      "es6": true
+    },
+    "rules": {
+      "no-undef": "off",
+      "no-unused-vars": "off"
+    }
+  },
+  "devDependencies": {
+    "sharp": "^0.33.2"
+  }
+}
