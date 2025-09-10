@@ -26,7 +26,6 @@ fs.readdir(svgDir, (err, files) => {
           const baselineSize = metadata.width; // baseline size
 
           sizes.forEach((size) => {
-
             const sizeDir = path.join(outputDir, `${size}`);
             if (!fs.existsSync(sizeDir)) {
               fs.mkdirSync(sizeDir);

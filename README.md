@@ -5,7 +5,7 @@ A script to generate images from SVGs.
 ## Setup
 
 1. It requires [imageMagick](https://imagemagick.org/script/download.php) to be installed.
-_Note: When installing be sure to check the 'Legacy Convert' feature_
+   _Note: When installing be sure to check the 'Legacy Convert' feature_
 2. Once ImageMagick is installed, restart VS Code if it is already open.
 3. Run `npm install` to install the required dependencies (Sharp is required to get the SVG size attributes).
 
